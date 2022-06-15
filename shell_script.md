@@ -25,7 +25,7 @@ $ brew install hudochenkov/sshpass/sshpass
 **scp로 파일 업로드**   
 scp -p [비밀번호] scp [업로드할파일] [계정]@[IP]
 ```shell script
-$ sshpass -p 'pass-string' scp resource2.zip woosik@10.8.28.100:~/
+$ scp -p 'pass-string' scp resource2.zip woosik@10.8.28.100:~/
 ```
 
 **원격서버에 명령어 실행하기**  
