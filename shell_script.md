@@ -23,7 +23,7 @@ $ brew install hudochenkov/sshpass/sshpass
 ```
 
 **scp로 파일 업로드**   
-sshpass -p [비밀번호] scp [업로드할파일] [계정]@[IP]
+scp -p [비밀번호] scp [업로드할파일] [계정]@[IP]
 ```shell script
 $ sshpass -p 'pass-string' scp resource2.zip woosik@10.8.28.100:~/
 ```
